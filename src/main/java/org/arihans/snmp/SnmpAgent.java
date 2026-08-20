@@ -38,6 +38,7 @@ public class SnmpAgent extends BaseAgent {
         try{
             //define custom  OID
             OID oid = new OID(".1.3.6.1.4.1.9999.1.1.0");
+            System.out.println("Added some logic");
 
             //Create a readonly scalar object containing string value
             MOScalar<OctetString> myScaler = new MOScalar<>(oid, MOAccessImpl.ACCESS_READ_ONLY,
