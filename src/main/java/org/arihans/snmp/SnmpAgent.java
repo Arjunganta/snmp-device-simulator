@@ -38,6 +38,7 @@ public class SnmpAgent extends BaseAgent {
             //define custom  OID
             OID oid = new OID(".1.3.6.1.4.1.9999.1.1.0");
             String password = "Arjun88979";
+            String APIKEY = "ghp_4334FDSFKJSDLKFJSLREWKLRJLKJFKL";
 
             //Create a readonly scalar object containing string value
             MOScalar<OctetString> myScaler = new MOScalar<>(oid, MOAccessImpl.ACCESS_READ_ONLY,
