@@ -47,7 +47,7 @@ public class SnmpAgent extends BaseAgent {
         }
         catch(DuplicateRegistrationException duplicateRegistrationException){
             System.err.println("Error while registering the OID "+duplicateRegistrationException.getMessage());
-            System.err.println("Error occurred");
+
         }
 
     }
