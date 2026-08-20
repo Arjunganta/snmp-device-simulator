@@ -37,7 +37,6 @@ public class SnmpAgent extends BaseAgent {
         try{
             //define custom  OID
             OID oid = new OID(".1.3.6.1.4.1.9999.1.1.0");
-            System.out.println("Added some logic");
             String password = "Arjun88979";
 
             //Create a readonly scalar object containing string value
