@@ -4,7 +4,6 @@ import org.snmp4j.TransportMapping;
 import org.snmp4j.agent.BaseAgent;
 import org.snmp4j.agent.CommandProcessor;
 import org.snmp4j.agent.DuplicateRegistrationException;
-import org.snmp4j.agent.MOAccess;
 import org.snmp4j.agent.mo.MOAccessImpl;
 import org.snmp4j.agent.mo.MOScalar;
 import org.snmp4j.agent.mo.MOTableRow;
@@ -22,7 +21,7 @@ import java.io.IOException;
 
 public class SnmpAgent extends BaseAgent {
 
-    private String address;
+    private final  String address;
 
     public SnmpAgent(String address){
         //configuration files for storage boot counter and config state
