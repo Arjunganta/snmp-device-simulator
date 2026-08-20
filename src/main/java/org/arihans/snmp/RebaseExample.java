@@ -5,4 +5,7 @@ public class RebaseExample {
     public void something(){
 
     }
+    public void doSomething(){
+
+    }
 }
