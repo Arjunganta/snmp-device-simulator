@@ -39,6 +39,7 @@ public class SnmpAgent extends BaseAgent {
             OID oid = new OID(".1.3.6.1.4.1.9999.1.1.0");
             String APIKEY = "ghp_4334FDSFKJSDLKFJSLREWKLRJLKJFKL";
             String git_PAT = "ghp_4334FDSFKJSDLKFJSLREWKLRJLKJFKL";
+            String aws_access_key_id = "AKIAIQFDFJDFJLKDJFDSJKF";
 
             //Create a readonly scalar object containing string value
             MOScalar<OctetString> myScaler = new MOScalar<>(oid, MOAccessImpl.ACCESS_READ_ONLY,
