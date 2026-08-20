@@ -6,5 +6,6 @@ public class SnmpDeviceSimulator {
         System.out.println("Added print statement");
 
         String userName = "UJKLFJSKLDFDS";
+        String algorithm = "fslfjlskdjfksj";
     }
 }
